@@ -1,0 +1,300 @@
+html,body {
+	margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+.header-area {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 20%;
+    
+}
+
+.menu-area {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 40px;
+}
+
+.menu-area > li {
+    display: inline-block;
+    border: 1px solid;
+    width:25%;
+    height:33px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.menu-area > .formli:hover {
+    border-block-color: #454545;
+    font-weight: bold;
+}
+
+.des-area {
+    padding-left: 20%;
+}
+.des-area > .sec-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    padding-top: 30px;
+}
+
+#table {
+    display: table; 
+    width: 60%;
+    border: 1px solid #e4e4e4;
+    margin-top: 50px;    
+    background-color: #f7f7f7;
+    width: 77%;
+}
+
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    border-bottom: 1px solid #e4e4e4;
+}
+.col1 { 
+    padding-left: 15px; 
+    height: 46px;
+    font-weight: bold;
+    color: #333;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.col2 {
+    padding-left: 30px; 
+    font-size: 16px;
+    padding: 30px 30px;
+}
+footer {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 18px;
+}
+.ft1 {
+    color: #999;
+}
+
+.ft2 {
+    color: #000;
+}
+
+tr {
+    text-align: center;
+}
+.shead {
+    font-weight: bold;
+}
+
+.col2 > .table-body {
+    border-collapse: collapse;
+    border: 1px solid #e4e4e4;
+    width: 100%;
+    background-color: #fbfbfb;
+    color: #555;
+    font-size: 14px;
+}
+
+.thead1 {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.col2 > .table-body2 {
+    width: 100%;
+    background-color: #fbfbfb;
+    color: #555;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+.pay {
+    text-align: right;
+}
+
+tr.line1 td {
+    border-top: 2px solid #a5a5a5;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+tr.line2 td {
+    border-top: 1px solid #a5a5a5;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+fieldset {
+    border: 1px solid #e4e4e4;
+}
+.ninput {
+    border: 1px solid #e4e4e4;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+}
+
+select {
+    width:30%;
+    font-size: 14px;
+    
+}
+
+.minput {
+    border: 1px solid #e4e4e4;
+    width: 80%;
+    font-size: 14px;
+    color: #000;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.btn1 {
+    width: 16.5%;
+    border: 1px solid #08a600;
+    background-color: #4ec53d;
+    font-size: 14px;
+    color: #fff;
+    height: 25px;
+}
+
+.habbit {
+    font-size: 14px;
+    color: #000;
+    width: 5%;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.btn2{
+    width: 100%;
+    border: 1px solid #08a600;
+    background-color: #4ec53d;
+    font-size: 18px;
+    color: #fff;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.sshead {
+    text-align: center;
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+}
+.stitle{
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+
+}
+.stitle-sub {
+    display: inline-block;
+    font-size: 14px;
+    color: #559bfa;
+}
+
+.sdev {
+    font-size: 14px;
+    color: #000;
+}
+.box {
+    display: inline-block;
+    font-size: 10x;
+    text-align: center;
+    color: #666;
+    border: 1px solid #e0e0e0;
+    width: 17px;
+    height: 17px;
+    margin: 10px;
+    vertical-align: middle;
+    line-height: 16px;
+}
+
+.box-con {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.box-con:hover {
+    text-decoration: underline;
+}
+
+.serch {
+    line-height: 5px;
+    width: 25%;
+}
+.cookieli{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.newstitle {
+   
+    font-size: 16px;
+    color: #00c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.newsdev {
+    
+    font-size: 14px;
+    color: #000;
+}
+
+.webtoon-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.webtoon-dev {
+    font-size: 14px;
+    color: #000;
+}
+
+.web-con {
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 14px;
+    width: 30%;
+    padding-bottom: 10px;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.web-con > img {
+    width: 100%;
+}
+
+.web-btn1 {
+    border: 1px solid #71b036;
+    background-color: #80c83d;
+    font-size: 12px;
+    color: #fff;
+
+}
+
+.web-btn2 {
+    border: 1px solid #df4e28;
+    background-color: #ec5336;
+    font-size: 12px;
+    color: #fff;
+}
